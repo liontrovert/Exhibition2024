@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
+  <title>Basic Web Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+body {
+  background: #000;
+  color: #fff;
+  padding: 25px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+footer{
+  text-align: center;
+}
+
+h1{
+font-size: 3em;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-item{
+  background: #373737;
+  border-radius: 20px;
+  margin: 0.5em;
+  padding: 25px;
+  h3 {
+    font-size: 1.6em;
+  }
+  p {
+    font-size: 1.4em;
+  }
+  h5{
+    font-size: 1.4em;
+     }
+
+}
+  .grid-item:hover{
+    background: #ffa64d;
+    color: black;
+    a{
+      color: black;
+    }
+  }
+.header{
+  text-align: center;
+}
+.intro{
+  text-align: center;
+
+  p {
+ font-size: 1.5em;
+}
+h4 {
+  font-size: 2em;
+}
+
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
+
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>What I've Been Doing in EDD</h1>
+    <h2>by Nick Alvarez</h2>
+  </div>
+  <div class="intro">
+    <p>Hi, I'm Nick. I'm a high school senior in Mr. Eno's Engineering Design and Development class.
+  <br><br>
+  During the first semester in EDD, I found it difficult to find a project idea that clicked with me. However, I gradually found a STEM field I liked - web development.
+ <br><br>
+  I'm still someone who pivots from project to project a lot, so I've been doing a lot of "mini projects" this semester. I experimented with AI, learned web-development, and took a dive in web design.
+  </p>
+  <h4>Thanks for stopping by my exhibit. Here's a web portfolio of all the projects and prototypes I've worked on.</h4>
+  </div>
+  <div class="projects-grid">
+  <div class="grid-item">
+    <h3>Web Builder Bot<br>
+    <i>Prompt Engineering Project</i></h3>
+    <p>I prompt engineered a chat-bot to provide blocks of HTML, CSS, and JavaScript code for users who need help in web-development. <br><br>
+    To encourage users to explore programming on their own, the chat bot provides detailed explanations of how each element of the generated code works.
+</p>
+  <h5>You can access the bot here: <a href="https://www.playlab.ai/project/clq5jf2ai05kpq8969pu5psls">https://www.playlab.ai/project/clq5jf2ai05kpq8969pu5psls</a></h5>
+  </div>
+  <div class="grid-item">
+     <h3>Digital Detox
+    <br><i>AI-Assisted Web Design and Development Project</i></h3>
+    <p>A Front-End Development project where I created a proof-of-concept page for a web tool that gives users offline tasks to do as a way to balance out how much we use screens and technology in day-to-day life.<br><br> My Web Builder Bot generated most of the webpage's framework. I then modified the code to make the site look the way I wanted it to. I used Canva's AI-image generator (the only AI image generation tool that I could access on school wifi) to make pictures for the site.
+</p>
+<h5>I uploaded my prototype as a Github Repository. You can access it here: <a href="https://liontrovert.github.io/ProjectLeoDigitalDetoxv1/">https://liontrovert.github.io/ProjectLeoDigitalDetoxv1/</a></h5>
+  </div>
+  <div class="grid-item"> <h3>Web Development & Javascript Courses
+    <br><i>Self-paced learning with FreeCodeCamp and Codecademy</i></h3>
+    <p>This year, I learned the ropes in HTML and CSS by taking courses in FreeCodeCamp's Responsive Web Design program, introduced to me by my Computer Science Seminar teacher, Justin Mitchell.<br><br> At the beginning of second semester, I switched to Codeacdemy (which I believe is better) to learn JavaScript. My CS teacher was able to give us free access to Codecademy's premium features, so I used it to access the "Create a Front-End App with React" skill path, which I'm chipping away at. The best thing about Codecademy is that it offers IDE's to program in - called Workspaces. In fact, I used Workspaces to make this site.
+</p>
+    </div>
+<div class="grid-item"><h3>Wix Creators of Tomorrow<br><i>Current Project: A Website to submit to the Wix Creators of Tommorrow Competition</i></h3>
+  <p>After learning Wix software, I started working on a website that showcases skills and careers in digital media for Wix's "Creators of Tomorrow" competition, due April 13. This website combines my current career interest in media/writing and my web-development passion.</p></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+<footer>
+  <h5>Made in El Segundo, CA by Nick Alvarez, 2024</h5>
+</footer>
+</html>
