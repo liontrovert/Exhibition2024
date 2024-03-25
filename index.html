@@ -3,8 +3,9 @@
 <head>
   <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
   <title>Basic Web Page</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <style>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+<style>
+  
 body {
   background: #000;
   color: #fff;
@@ -20,6 +21,22 @@ h1{
 font-size: 3em;
 }
 
+.itemTwoRows{
+  display: flex;
+  flex-direction: row;
+}
+
+.imageGrid{
+  display: flex;
+  flex-direction: column;
+
+  .images{
+  padding: 25px;
+}
+
+}
+
+
 .projects-grid {
   display: flex;
   flex-direction: column;
@@ -27,6 +44,7 @@ font-size: 3em;
 
 .grid-item{
   background: #373737;
+  height: auto;
   border-radius: 20px;
   margin: 0.5em;
   padding: 25px;
@@ -87,7 +105,8 @@ a:hover{
   </p>
   <h4>Thanks for stopping by my exhibit. Here's a web portfolio of all the projects and prototypes I've worked on.</h4>
   </div>
-  <div class="projects-grid">
+  <div class="itemTwoRows">
+    <div class="projects-grid">
   <div class="grid-item">
     <h3>Web Builder Bot<br>
     <i>Prompt Engineering Project</i></h3>
@@ -111,6 +130,14 @@ a:hover{
 <div class="grid-item"><h3>Wix Creators of Tomorrow<br><i>Current Project: A Website to submit to the Wix Creators of Tommorrow Competition</i></h3>
   <p>After learning Wix software, I started working on a website that showcases skills and careers in digital media for Wix's "Creators of Tomorrow" competition, due April 13. This website combines my current career interest in media/writing and my web-development passion.</p></div>
   </div>
+  <div class="imageGrid">
+    <img class="images" src="https://placehold.co/400"/>
+    <img class="images" src="https://placehold.co/400"/>
+    <img class="images" src="https://placehold.co/400"/>
+    <img class="images" src="https://placehold.co/400"/>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 <footer>
